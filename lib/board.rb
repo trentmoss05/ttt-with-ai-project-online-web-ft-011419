@@ -25,7 +25,7 @@ class Board
 
   end
 
-  def token
+  def taken?
   end
 
   def full?
