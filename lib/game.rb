@@ -36,4 +36,7 @@ class Game
   def turn
   end
 
+  def play
+  end
+
 end
