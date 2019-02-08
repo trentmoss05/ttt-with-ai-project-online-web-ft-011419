@@ -35,4 +35,7 @@ class Board
   def turn_count
     cells.count {|a| a == "X" || a == "O"}
   end
+
+  def vlaid_move?
+  end
 end
