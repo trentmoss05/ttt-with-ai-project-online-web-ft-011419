@@ -1,0 +1,1 @@
+class Players::Human < Player
