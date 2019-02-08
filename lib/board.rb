@@ -10,6 +10,7 @@ class Board
   end
 
   def display
+    puts @cells
   end
 
   def position
