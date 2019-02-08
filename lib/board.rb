@@ -37,6 +37,6 @@ class Board
     cells.count {|a| a == "X" || a == "O"}
   end
 
-  def vlaid_move?
+  def valid_move?
   end
 end
