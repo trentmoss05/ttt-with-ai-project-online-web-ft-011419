@@ -1,4 +1,5 @@
-class Players::Human < Player
+module Players
+  class Human < Player
 
 
 end
