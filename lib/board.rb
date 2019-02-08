@@ -26,7 +26,7 @@ class Board
   end
 
   def taken?(position)
-    
+
   end
 
   def full?
