@@ -26,7 +26,7 @@ class Board
   end
 
   def taken?(position)
-
+    !(position(position) == " " || position(position) == "")
   end
 
   def full?
