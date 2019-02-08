@@ -37,6 +37,7 @@ class Board
     cells.count {|a| a == "X" || a == "O"}
   end
 
-  def valid_move?
+  def valid_move?(input)
+    input.to_i.between?(1,9) && !taken?(input)
   end
 end
