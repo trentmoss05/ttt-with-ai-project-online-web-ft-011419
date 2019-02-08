@@ -18,6 +18,22 @@ class Game
     @player_2 = player_2
   end
 
+  def current_player
+  end
 
+  def won?
+  end
+
+  def draw?
+  end
+
+  def over?
+  end
+
+  def winner
+  end
+
+  def turn
+  end
 
 end
