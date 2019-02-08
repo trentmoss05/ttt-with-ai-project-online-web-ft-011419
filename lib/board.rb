@@ -2,7 +2,7 @@ class Board
   attr_accessor :cells
 
   def initialize
-    @cells = Array.new(9, " ")
+    reset!
   end
 
   def reset!
@@ -13,7 +13,8 @@ class Board
     @cells
   end
 
-  def position
+  def position(input)
+    
   end
 
   def update
